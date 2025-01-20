@@ -1,6 +1,8 @@
-use std::error::Error;
+//mod database;
 
-type MyResult<T> = Result<T, Box<dyn Error>>;
+use std::error::Error;
+use std::time::Duration;
+//use crate::database::Database;
 
 #[tauri::command]
 fn greet(name: &str) -> String {
