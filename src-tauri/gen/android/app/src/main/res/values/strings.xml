@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">iot-home-client</string>
+    <string name="main_activity_title">iot-home-client</string>
+</resources>
